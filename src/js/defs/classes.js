@@ -5,43 +5,39 @@ mmorpg.CLASSES = [
 		handle: "barbarian",
 		stats: {
 			strength: 8,
-			intelligence: 2,
+			intellect: 2,
 			agility: 5
 		}
-	},
-	{
+	}, {
 		name: "Assassin",
 		handle: "assassin",
 		stats: {
 			strength: 4,
-			intelligence: 6,
+			intellect: 6,
 			agility: 9
 		}
-	},
-	{
+	}, {
 		name: "Hunter",
 		handle: "hunter",
 		stats: {
 			strength: 2,
-			intelligence: 5,
+			intellect: 5,
 			agility: 8
 		}
-	},
-	{
+	}, {
 		name: "Mage",
 		handle: "mage",
 		stats: {
 			strength: 2,
-			intelligence: 9,
+			intellect: 9,
 			agility: 2
 		}
-	},
-	{
+	}, {
 		name: "Priest",
 		handle: "priest",
 		stats: {
 			strength: 4,
-			intelligence: 7,
+			intellect: 7,
 			agility: 4
 		}
 	}
