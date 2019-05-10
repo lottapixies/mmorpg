@@ -191,10 +191,43 @@ mmorpg.ITEMS = [
 		durability: 10,
 		equipment_slot: mmorpg.EQUIPMENT_SLOT_HEAD,
 		rarity: mmorpg.EQUIPMENT_RARITY_UNIQUE,
+		min_level: 10,
 		stats: {
 			agility: 2,
 			strength: 6,
 			intellect: 10
+		}
+	}, {
+		name: "Spear of Destiny",
+		handle: "spearofdestiny",
+		id: 2,
+		equipment_type: mmorpg.EQUIPMENT_TYPE_WEAPON,
+		equipment_class: null,
+		weight: 4,
+		durability: 10,
+		equipment_slot: mmorpg.EQUIPMENT_SLOT_LEFT_HAND,
+		rarity: mmorpg.EQUIPMENT_RARITY_LEGENDARY,
+		min_level: 20,
+		stats: {
+			agility: 20,
+			strength: 13,
+			intellect: 1
+		}
+	}, {
+		name: "Ring of Emotions",
+		handle: "ringofemotions",
+		id: 3,
+		equipment_type: null,
+		equipment_class: null,
+		weight: 0,
+		durability: 0,
+		equipment_slot: mmorpg.EQUIPMENT_SLOT_RING,
+		rarity: mmorpg.EQUIPMENT_RARITY_RARE,
+		min_level: 5,
+		stats: {
+			agility: 5,
+			strength: 5,
+			intellect: 30
 		}
 	}
 ];
