@@ -1,8 +1,4 @@
 
-if (typeof mmorpg === 'undefined') {
-	var mmorpg = {};
-}
-
 mmorpg.core = function () {
 
 	this.settings = {
