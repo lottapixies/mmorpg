@@ -1,4 +1,7 @@
 
+/*
+ * Game character
+ */
 mmorpg.CHARACTER = {
 	name: "",
 	handle: "",
@@ -11,10 +14,14 @@ mmorpg.CHARACTER = {
 		intellect: 0,
 		luck: 0
 	},
+	coins: 0,
 	equipment: {
 
 	},
 	backpack: {
 
+	},
+	appearance: {
+		
 	}
 }

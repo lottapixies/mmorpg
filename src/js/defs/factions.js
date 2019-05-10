@@ -1,4 +1,7 @@
 
+/*
+ * Game factions
+ */
 mmorpg.FACTIONS = [
 	{
 		name: "The Immortals",

@@ -1,4 +1,7 @@
 
+/*
+ * Game classes
+ */
 mmorpg.CLASSES = [
 	{
 		name: "Barbarian",

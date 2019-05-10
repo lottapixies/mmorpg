@@ -1,4 +1,7 @@
 
+/*
+ * Equipment slots
+ */
 mmorpg.EQUIPMENT_SLOT_HEAD = 0;
 
 mmorpg.EQUIPMENT_SLOT_SHOULDERS = 1;
@@ -63,12 +66,17 @@ mmorpg.EQUIPMENT_SLOTS = [
 	}
 ];
 
-
+/*
+ * Equipment types
+ */
 mmorpg.EQUIPMENT_TYPE_ARMOR = 0;
 
 mmorpg.EQUIPMENT_TYPE_WEAPON = 1;
 
 
+/*
+ * Equipment weapon types
+ */
 mmorpg.EQUIPMENT_WEAPON_SWORD = 0;
 
 mmorpg.EQUIPMENT_WEAPON_DAGGER = 1;
@@ -83,6 +91,10 @@ mmorpg.EQUIPMENT_WEAPON_WAND = 5;
 
 mmorpg.EQUIPMENT_WEAPON_BOW = 6;
 
+
+/*
+ * Equipment weapon classes
+ */
 mmorpg.EQUIPMENT_WEAPON_CLASSES = [
 	{
 		name: "Sword",
@@ -94,7 +106,7 @@ mmorpg.EQUIPMENT_WEAPON_CLASSES = [
 		id: mmorpg.EQUIPMENT_WEAPON_DAGGER
 	}, {
 		name: "Axe",
-		handle: "axe"
+		handle: "axe",
 		id: mmorpg.EQUIPMENT_WEAPON_AXE
 	}, {
 		name: "Hammer",
@@ -115,7 +127,9 @@ mmorpg.EQUIPMENT_WEAPON_CLASSES = [
 	}
 ];
 
-
+/*
+ * Equipment armor classes
+ */
 mmorpg.EQUIPMENT_ARMOR_CLASS_CLOTH = 0;
 
 mmorpg.EQUIPMENT_ARMOR_CLASS_LEATHER = 1;
@@ -135,7 +149,7 @@ mmorpg.EQUIPMENT_ARMOR_CLASSES = [
 		id: mmorpg.EQUIPMENT_ARMOR_CLASS_LEATHER
 	}, {
 		name: "Mail",
-		handle: "mail"
+		handle: "mail",
 		id: mmorpg.EQUIPMENT_ARMOR_CLASS_MAIL
 	}, {
 		name: "Plate",
@@ -145,6 +159,9 @@ mmorpg.EQUIPMENT_ARMOR_CLASSES = [
 ];
 
 
+/*
+ * Equipment rarity
+ */
 mmorpg.EQUIPMENT_RARITY_COMMON = 0;
 
 mmorpg.EQUIPMENT_RARITY_UNCOMMON = 1;
@@ -154,6 +171,8 @@ mmorpg.EQUIPMENT_RARITY_RARE = 2;
 mmorpg.EQUIPMENT_RARITY_LEGENDARY = 3;
 
 mmorpg.EQUIPMENT_RARITY_UNIQUE = 4;
+
+mmorpg.EQUIPMENT_RARITY_SET = 5;
 
 mmorpg.EQUIPMENT_RARITY = [
 	{
@@ -166,7 +185,7 @@ mmorpg.EQUIPMENT_RARITY = [
 		id: mmorpg.EQUIPMENT_RARITY_UNCOMMON
 	}, {
 		name: "Rare",
-		handle: "rare"
+		handle: "rare",
 		id: mmorpg.EQUIPMENT_RARITY_RARE
 	}, {
 		name: "Legendary",
@@ -176,10 +195,40 @@ mmorpg.EQUIPMENT_RARITY = [
 		name: "Unique",
 		handle: "unique",
 		id: mmorpg.EQUIPMENT_RARITY_UNIQUE
+	}, {
+		name: "Set",
+		handle: "set",
+		id: mmorpg.EQUIPMENT_RARITY_SET
 	}
 ];
 
+/*
+ * Equipment item
+ */
+mmorpg.ITEM = {
+	name: "",
+	handle: "",
+	description: "",
+	dps: 0,
+	level: 1,
+	id: null,
+	equipment_type: null,
+	equipment_class: null,
+	weight: 1,
+	durability: 10,
+	equipment_slot: null,
+	rarity: null,
+	min_level: 1,
+	stats: {
+		agility: 1,
+		strength: 1,
+		intellect: 1
+	}
+};
 
+/*
+ * Equipment items
+ */
 mmorpg.ITEMS = [
 	{
 		name: "Bonnet of Kings",
