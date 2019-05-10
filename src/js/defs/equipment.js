@@ -86,7 +86,7 @@ mmorpg.EQUIPMENT_WEAPON_BOW = 6;
 mmorpg.EQUIPMENT_WEAPON_CLASSES = [
 	{
 		name: "Sword",
-		handle: "sqord",
+		handle: "sword",
 		id: mmorpg.EQUIPMENT_WEAPON_SWORD
 	}, {
 		name: "Dagger",
