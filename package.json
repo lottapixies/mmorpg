@@ -15,10 +15,15 @@
 	},
 	"contributors": [
 		"randompixels https://github.com/randompixels"
-  	],
+	],
 	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/lottapixies/mmorpg.git"
+	},
+	"devDependencies": {
+		"del": "^4.1.1",
+		"gulp": "^4.0.2",
+		"gulp-concat": "^2.6.1"
 	}
 }

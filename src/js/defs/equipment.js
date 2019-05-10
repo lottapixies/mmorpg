@@ -158,7 +158,6 @@ mmorpg.EQUIPMENT_ARMOR_CLASSES = [
 	}
 ];
 
-
 /*
  * Equipment rarity
  */
