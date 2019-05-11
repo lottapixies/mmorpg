@@ -1,0 +1,1 @@
+This directory contains the external libraries required by the game.

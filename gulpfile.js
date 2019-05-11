@@ -26,6 +26,7 @@ gulp.task('css', function() {
 		'dist/app.css'
     ]);
 	return gulp.src([
+		'src/css/reset.css',
 	  	'src/css/main.css',
 		'src/css/window.css'
   	])

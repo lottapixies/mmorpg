@@ -1,0 +1,1 @@
+This directory contains the compiled (minified) asset files for the game.
