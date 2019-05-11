@@ -7,12 +7,37 @@ gulp.task('app', function() {
 		'dist/app.js'
     ]);
 	return gulp.src([
+		// Nothing goes in front of this.
 		'src/js/defs/default.js',
+
 		'src/js/defs/character.js',
 		'src/js/defs/classes.js',
 		'src/js/defs/equipment.js',
 		'src/js/defs/factions.js',
 		'src/js/defs/places.js',
+
+		'src/js/defs/items/armor/common.js',
+		'src/js/defs/items/armor/uncommon.js',
+		'src/js/defs/items/armor/rare.js',
+		'src/js/defs/items/armor/legendary.js',
+		'src/js/defs/items/armor/unique.js',
+		'src/js/defs/items/armor/set.js',
+
+		'src/js/defs/items/weapon/common.js',
+		'src/js/defs/items/weapon/uncommon.js',
+		'src/js/defs/items/weapon/rare.js',
+		'src/js/defs/items/weapon/legendary.js',
+		'src/js/defs/items/weapon/unique.js',
+		'src/js/defs/items/weapon/set.js',
+
+		'src/js/defs/items/others/common.js',
+		'src/js/defs/items/others/uncommon.js',
+		'src/js/defs/items/others/rare.js',
+		'src/js/defs/items/others/legendary.js',
+		'src/js/defs/items/others/unique.js',
+		'src/js/defs/items/others/set.js',
+
+		'src/js/core/item.js',
 		'src/js/core/character.js',
 		'src/js/core/core.js',
 		'src/js/init.js'

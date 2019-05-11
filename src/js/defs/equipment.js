@@ -225,57 +225,8 @@ game.ITEM = {
 	}
 };
 
+
 /*
  * Equipment items
  */
-game.ITEMS = [
-	{
-		name: "Bonnet of Kings",
-		handle: "bonnetofkings",
-		id: 1,
-		equipment_type: game.EQUIPMENT_TYPE_ARMOR,
-		equipment_class: game.EQUIPMENT_ARMOR_CLASS_PLATE,
-		weight: 1,
-		durability: 10,
-		equipment_slot: game.EQUIPMENT_SLOT_HEAD,
-		rarity: game.EQUIPMENT_RARITY_UNIQUE,
-		min_level: 10,
-		stats: {
-			agility: 2,
-			strength: 6,
-			intellect: 10
-		}
-	}, {
-		name: "Spear of Destiny",
-		handle: "spearofdestiny",
-		id: 2,
-		equipment_type: game.EQUIPMENT_TYPE_WEAPON,
-		equipment_class: null,
-		weight: 4,
-		durability: 10,
-		equipment_slot: game.EQUIPMENT_SLOT_LEFT_HAND,
-		rarity: game.EQUIPMENT_RARITY_LEGENDARY,
-		min_level: 20,
-		stats: {
-			agility: 20,
-			strength: 13,
-			intellect: 1
-		}
-	}, {
-		name: "Ring of Emotions",
-		handle: "ringofemotions",
-		id: 3,
-		equipment_type: null,
-		equipment_class: null,
-		weight: 0,
-		durability: 0,
-		equipment_slot: game.EQUIPMENT_SLOT_RING,
-		rarity: game.EQUIPMENT_RARITY_RARE,
-		min_level: 5,
-		stats: {
-			agility: 5,
-			strength: 5,
-			intellect: 30
-		}
-	}
-];
+game.ITEMS = [];
