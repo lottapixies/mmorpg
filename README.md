@@ -10,6 +10,13 @@ Install [gulp](https://gulpjs.com/).
 $ npm install --global gulp-cli
 ```
 
+Clone the repo and cd into it.
+
+```
+$ git clone https://github.com/lottapixies/mmorpg.git
+$ cd mmorpg
+```
+
 Install package dependencies.
 
 ```
@@ -21,6 +28,8 @@ Run gulp and it will add a watcher for all the modified files inside the `src` d
 ```
 $ gulp
 ```
+
+Open `index.html` in your favorite browser.
 
 # Dependencies
 
