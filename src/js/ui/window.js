@@ -1,5 +1,5 @@
 
-mmorpg.window = function (params) {
+game.window = function (params) {
 
 	this.name = null;
 

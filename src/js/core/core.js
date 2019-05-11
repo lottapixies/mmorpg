@@ -1,5 +1,5 @@
 
-mmorpg.core = function () {
+game.core = function () {
 
 	this.settings = {
 

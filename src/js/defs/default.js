@@ -1,6 +1,6 @@
 
-if (typeof mmorpg === 'undefined') {
-	var mmorpg = {};
+if (typeof game === 'undefined') {
+	var game = {};
 }
 
-mmorpg.VERSION = "0.1.0";
+game.VERSION = "0.1.0";

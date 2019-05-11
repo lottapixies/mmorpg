@@ -2,7 +2,7 @@
 /*
  * Game factions
  */
-mmorpg.FACTIONS = [
+game.FACTIONS = [
 	{
 		name: "The Immortals",
 		handle: "immortals"

@@ -2,11 +2,11 @@
 /*
  * Game character
  */
-mmorpg.CHARACTER = {
+game.CHARACTER = {
 	name: "",
 	handle: "",
 	faction: null,
-	class: null,
+	class_type: null,
 	born: null,
 	stats: {
 		strength: 0,
@@ -24,4 +24,4 @@ mmorpg.CHARACTER = {
 	appearance: {
 		
 	}
-}
+};

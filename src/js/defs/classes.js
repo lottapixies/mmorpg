@@ -2,7 +2,7 @@
 /*
  * Game classes
  */
-mmorpg.CLASSES = [
+game.CLASSES = [
 	{
 		name: "Barbarian",
 		handle: "barbarian",
