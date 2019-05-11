@@ -1,6 +1,8 @@
 
 game.core = function () {
 
+	this.helpers = {};
+	
 	this.settings = {
 
 	};

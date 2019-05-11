@@ -37,6 +37,9 @@ gulp.task('app', function() {
 		'src/js/defs/items/others/unique.js',
 		'src/js/defs/items/others/set.js',
 
+		'src/js/helpers/game.js',
+		'src/js/helpers/ui.js',
+
 		'src/js/core/item.js',
 		'src/js/core/character.js',
 		'src/js/core/core.js',
